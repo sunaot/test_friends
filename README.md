@@ -1,6 +1,10 @@
 # TestFriends
 
-TODO: Write a gem description
+TestFriends gem is a library bundle to help your unit testing.
+
+It includes following modules.
+
+* ResolvErrorStub: to force Resolv to raise error exception.
 
 ## Installation
 
@@ -15,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install test_friends
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 

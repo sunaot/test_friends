@@ -6,11 +6,11 @@ require 'test_friends/version'
 Gem::Specification.new do |spec|
   spec.name          = "test_friends"
   spec.version       = TestFriends::VERSION
-  spec.authors       = ["tanabe-sunao"]
-  spec.email         = ["tanabe.sunao@dena.jp"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["sunaot"]
+  spec.email         = ["sunao.tanabe@gmail.com"]
+  spec.description   = %q{TestFriends gem is a library bundle to help your unit testing.}
+  spec.summary       = %q{TestFriends gem is a library bundle to help your unit testing.}
+  spec.homepage      = "https://github.com/sunaot/test_friends"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
