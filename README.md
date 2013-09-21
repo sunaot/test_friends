@@ -4,7 +4,8 @@ TestFriends gem is a library bundle to help your unit testing.
 
 It includes following modules.
 
-* ResolvErrorStub: to force Resolv to raise error exception.
+* TestFriends::ResolvErrorStub: to force Resolv to raise error exception.
+* TestFriends::Tempfile: Real file stub with auto cleanup and Pathname like APIs.
 
 ## Installation
 
