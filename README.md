@@ -2,6 +2,8 @@
 
 TestFriends gem is a library bundle to help your unit testing.
 
+* master: [![Build Status](https://travis-ci.org/sunaot/test_friends.png?branch=master)](https://travis-ci.org/sunaot/test_friends)
+
 It includes following modules.
 
 * ResolvErrorStub: to force Resolv to raise error exception.
