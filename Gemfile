@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in test_friends.gemspec
 gemspec
+
+group :development, :test do
+  gem 'minitest'
+end

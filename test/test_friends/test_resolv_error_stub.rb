@@ -1,8 +1,7 @@
-require 'minitest/unit'
 require 'minitest/autorun'
 require 'test_friends/resolv_error_stub'
 
-class ResolvErrorStubTest < MiniTest::Unit::TestCase
+class ResolvErrorStubTest < Minitest::Test
   include TestFriends::ResolvErrorStub
 
   def test_force_resolv_error
