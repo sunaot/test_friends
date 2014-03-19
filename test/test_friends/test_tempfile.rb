@@ -1,8 +1,9 @@
 require 'minitest/autorun'
+require 'minitest/unit'
 require 'test_friends/tempfile'
 require 'time'
 
-class TempfileTest < Minitest::Test
+class TempfileTest < MiniTest::Unit::TestCase
   def setup
     @file = TestFriends::Tempfile.new
   end
